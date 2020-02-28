@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewCelebiSeyehat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_weight="0"
+        android:text="@string/celebiSeyehat"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBiletTatilSistemi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_weight="0"
+        android:text="@string/biletTatilSistemi"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBiletSat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/biletSat" />
+
+    <Button
+        android:id="@+id/buttonOtelRezervasyonu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otelRezervasyonuYap" />
+
+    <Button
+        android:id="@+id/buttonMusteriBilgileri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/musteriBilgileriniGoruntule" />
+
+    <Button
+        android:id="@+id/buttonSeferBilgileri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seferBilgileriniGoruntule" />
+
+    <Button
+        android:id="@+id/buttonOtelBilgileri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otelBilgileriniGoruntule" />
+
+    <Button
+        android:id="@+id/buttonRezervasyonSil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/rezervasyonSil" />
+
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/otelpuanıguncelle" />
+</LinearLayout>

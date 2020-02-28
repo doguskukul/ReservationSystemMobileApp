@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityOtelBilgileriniGoruntule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_otelismi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/otelAdi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_OtelIsmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otelAdi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_bolge"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bolge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_Bolge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bolge"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_fiyat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fiyat"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_Fiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fiyat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_yildizSayisi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yildizSayisi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_YildizSayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yildizSayisi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_puan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/puan"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_Puan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/puan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_kabulBaslangıc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kabulTarihiBaslangıc"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_KabulBaslangıc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kabulTarihiBaslangıc"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_kabulBitis"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kabulTarihiBitisi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_KabulBitis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kabulTarihiBitisi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_kapasite"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kapasite"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_Kapasite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kapasite"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_bosYer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bosYerSayisi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_BosYer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bosYerSayisi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRezervasyonListele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rezervasyonListele" />
+</LinearLayout>

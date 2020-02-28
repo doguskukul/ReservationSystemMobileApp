@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityOtelFiltrele">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewGirisTarihi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/girisTarihi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextGirisTarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/girisTarihi"
+            android:inputType="date" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGirisTarihi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/calendar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCikisTarihi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cikisTarihi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextCikisTarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cikisTarihi"
+            android:inputType="date" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCikisTarihi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/calendar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBolgeSec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bolgeSec"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkIstanbul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/istanbul" />
+
+    <CheckBox
+        android:id="@+id/checkAnkara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ankara" />
+
+    <CheckBox
+        android:id="@+id/checkIzmir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/izmir" />
+
+    <CheckBox
+        android:id="@+id/checkAntalya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/antalya" />
+
+    <CheckBox
+        android:id="@+id/checkMarmaris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/marmaris" />
+
+    <CheckBox
+        android:id="@+id/checkKemer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kemer" />
+
+    <CheckBox
+        android:id="@+id/checkKusadasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kusadasi" />
+
+    <CheckBox
+        android:id="@+id/checkSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side" />
+
+    <CheckBox
+        android:id="@+id/checkAyvalik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ayvalik" />
+
+    <Button
+        android:id="@+id/buttonOtelFiltrele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otelFiltrele" />
+
+</LinearLayout>

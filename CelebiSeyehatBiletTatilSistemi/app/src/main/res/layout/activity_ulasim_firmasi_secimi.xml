@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityUlasimFirmasiSecimi">
+
+    <TextView
+        android:id="@+id/textViewUlasimFirmasiSec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/ulasimFirmasiSec"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonYtur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/ytur" />
+
+    <Button
+        android:id="@+id/buttonUcanTurk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ucanTurkOzelHavaYolu" />
+
+    <Button
+        android:id="@+id/buttonDevletDemirYollari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/devletDemirYollari" />
+</LinearLayout>

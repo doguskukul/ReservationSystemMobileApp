@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityOtelRezervasyonuYap"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewIsim_musteri"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/isim"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editIsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/isim"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSoyisim_musteri"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/soyisim"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editSoyisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/soyisim"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewKimlikNo_musteri"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kimlikNo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editKimlikNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/kimlikNo"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTelefonNo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/telefonNo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTelefonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/telefonNo"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/kisiSayisi"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bir" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/iki" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/uc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkNakit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nakit" />
+
+        <CheckBox
+            android:id="@+id/checkKrediKarti"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/krediKarti" />
+
+        <CheckBox
+            android:id="@+id/checkCek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cek" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonOdeme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/odemeYap" />
+
+    <Button
+        android:id="@+id/buttonPuanKullan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/puanKullan" />
+
+    <Button
+        android:id="@+id/buttonAnasayfa_rezervasyon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anasayfa" />
+
+</LinearLayout>
